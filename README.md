@@ -14,6 +14,6 @@ Only the upper half and diagonal outputs are actually computed since the matrix 
 
 Euclidean distances over the scaled eigenbasis of M is equivalent to Mahalanobis distances over the original space. For a quick proof,
 consider the Cholesky decomposition of the variance-covariance matrix, namely the transpose of L multiplied by L itself. By noting that
-the unit-variance principal components are spawned by multiplying a given vector y by L, it can be shown that going from PC_y = Ly to y = inv_L PC_y, and substituting for y in the Mahalanobis distance formula, yields the Euclidean distance between y* and an arbitrary vector x*.
+the unit-variance principal components are spawned by multiplying a given vector y by L, it can be shown that going from PC_y = Ly to y = inv_L PC_y, and substituting for y in the Mahalanobis distance formula, yields the Euclidean distance between PC_y and an arbitrary vector PC_x.
 
 
