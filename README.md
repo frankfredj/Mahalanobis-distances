@@ -22,7 +22,6 @@ x* = Lx     (Principal components with unit variance)
 inv_L x* = x
 
 Mal(x, y) = t(inv_L (x* - y*)) inv_(t(L) I L) (inv_L (x* - y*))
-          = t(x* - y*) (x* - y*)
-          
-          = Euclidean distance between x* and y*
+= t(x* - y*) (x* - y*)
+= Euclidean distance between x* and y*
 
